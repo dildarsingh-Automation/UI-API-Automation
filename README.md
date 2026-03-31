@@ -1,257 +1,65 @@
-# Playwright Automation Framework
+# 🚀 Playwright Complete Demo Framework (UI & API)
 
-A production-ready Playwright automation framework for end-to-end testing of ERP applications.
+> **Important Note**: This repository is a sanitized standalone framework. It actively utilizes public demonstration sites (`the-internet.herokuapp.com` and `reqres.in`) to display modern testing architectures and methods. **No confidential project data, real URLs, credentials, or proprietary business logic will be found here.**
 
-## Features
+## 📖 Overview
 
-- **Page Object Model (POM)** - Clean separation of test logic and page interactions
-- **Fixtures** - Reusable test fixtures for authentication and page objects
-- **Environment Variables** - Secure credential management
-- **Test Tagging** - Run smoke or regression tests selectively
-- **Retry Logic** - Built-in retries for flaky operations
-- **Multiple Browsers** - Chrome, Firefox, and mobile testing support
-- **Parallel Execution** - Fast test execution
-- **Rich Reporting** - HTML, Allure, and JSON reporters
+A robust, enterprise-level automation framework built with TypeScript and [Playwright](https://playwright.dev/).
 
-## Project Structure
+This framework integrates end-to-end (E2E) UI testing with detailed API integration tests, providing a generic structure that is robust, parallel-safe, and production-ready.
 
-```
-Automation project/
+## 🛠️ Technology Stack
+
+- **Testing Engine:** `Playwright`
+- **Language:** `TypeScript`
+- **API Testing:** Built-in Playwright Request Context
+- **Reporting:** `Playwright HTML Reporter`, `Allure` 
+- **Configuration:** `dotenv`
+
+## 📁 Repository Architecture
+
+```text
+├── .env.example              # Environment secret templates
+├── playwright.config.ts      # Core runner config (retries, timeouts, reporters)
 ├── tests/
-│   ├── fixtures/           # Test fixtures
-│   │   └── auth.fixture.ts
-│   ├── pages/              # Page Object Models
-│   │   ├── base.page.ts
-│   │   ├── login.page.ts
-│   │   ├── dashboard.page.ts
-│   │   ├── navigation.page.ts
-│   │   ├── gradeReport.page.ts
-│   │   └── userManagement.page.ts
-│   ├── specs/              # Test specifications
-│   │   ├── login.spec.ts
-│   │   ├── dashboard.spec.ts
-│   │   └── gradeReport.spec.ts
-│   ├── utils/              # Utility functions
-│   │   ├── environment.ts
-│   │   ├── logger.ts
-│   │   └── waitUtils.ts
-│   ├── data/               # Test data
-│   │   ├── sample-marks.csv
-│   │   └── testData.ts
-│   ├── global-setup.ts     # Pre-test setup
-│   └── global-teardown.ts  # Post-test cleanup
-├── playwright.config.ts     # Playwright configuration
-├── tsconfig.json           # TypeScript configuration
-├── .env.example           # Environment variable template
-└── package.json
+│   ├── pages/                # Page Object Model (POM) representations
+│   │   ├── base.page.ts      # Abstracted interactions (clicks, assertions)
+│   │   └── login.page.ts     # Example Component POM definition
+│   ├── specs/                # UI spec definitions (e.g. login.spec.ts)
+│   └── api_tests/            # Isolated REST API functional and integration tests
 ```
 
-## Setup
+## 🚀 Getting Started
 
-1. **Install dependencies:**
-```bash
-npm install
-```
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-2. **Configure environment variables:**
-```bash
-# Copy .env.example to .env and fill in values
-cp .env.example .env
-```
+2. **Environment Variables Config**
+   Rename `.env.example` to `.env`. Modify values if needed. (By default, public URLs and standard demo credentials are set).
 
-3. **Set required environment variables in `.env`:**
-```env
-BASE_URL=https://copilot-student.wowlabz.com
-TEST_USERNAME=your_username
-TEST_PASSWORD=your_password
-```
+3. **Install Browsers**
+   ```bash
+   npx playwright install --with-deps chromium
+   ```
 
-## Running Tests
+## 🧪 Executing Tests
 
-### All Tests
-```bash
-npx playwright test
-```
+* **Headless execution (All Tests)**
+  ```bash
+  npm run test
+  ```
+  
+* **Headed Execution (Visual Mode)**
+  ```bash
+  npm run test:headed
+  ```
+  
+## 💡 Framework Quality Highlights
 
-### Run by Tag
-```bash
-# Smoke tests only
-npx playwright test --grep "@smoke"
-
-# Regression tests only
-npx playwright test --grep "@regression"
-```
-
-### Specific Browser
-```bash
-# Chrome only
-npx playwright test --project=chromium
-
-# Firefox only
-npx playwright test --project=firefox
-```
-
-### Mobile Tests
-```bash
-npx playwright test --project="Mobile Chrome"
-```
-
-### Headed Mode (Visible Browser)
-```bash
-HEADLESS=false npx playwright test
-```
-
-### With Trace Viewer
-```bash
-npx playwright test --trace on
-```
-
-## Configuration
-
-### Environment Variables
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `BASE_URL` | Application URL | https://copilot-student.wowlabz.com |
-| `TEST_USERNAME` | Login username | Required |
-| `TEST_PASSWORD` | Login password | Required |
-| `TEST_ENV` | Environment (qa/uat/prod) | qa |
-| `CI` | Running in CI | false |
-| `SKIP_AUTH` | Skip authentication | false |
-| `HEADLESS` | Run in headed mode | true |
-| `LOG_LEVEL` | Logging level | INFO |
-
-### Playwright Config Options
-
-- **retries**: 1 for local, 2 for CI
-- **workers**: Unlimited for local, 1 for CI
-- **timeout**: 300s per test
-- **actionTimeout**: 60s per action
-- **navigationTimeout**: 60s for page navigation
-
-## Best Practices
-
-### Writing Tests
-
-1. **Use Page Objects** - Keep page interaction logic in page classes
-2. **Use Fixtures** - Reuse common setups via fixtures
-3. **Avoid Hardcoded Waits** - Use Playwright's auto-wait feature
-4. **Use Proper Locators** - Prefer `getByRole`, `getByText`, `getByTestId`
-5. **Add Test Tags** - Use `@smoke` and `@regression` tags
-
-### Locator Priority
-
-```typescript
-// Best - use data-test attributes
-this.page.getByTestId('submit-button')
-
-// Good - semantic roles
-this.page.getByRole('button', { name: 'Submit' })
-
-// Good - placeholder text
-this.page.getByPlaceholder('Enter email')
-
-// Okay - text content
-this.page.getByText('Submit')
-
-// Avoid - CSS selectors when possible
-this.page.locator('#submit')
-```
-
-### Test Structure
-
-```typescript
-test.describe('Feature Name', () => {
-  let page: Page;
-  let myPage: MyPage;
-
-  test.beforeEach(async ({ page }) => {
-    myPage = new MyPage(page);
-    await myPage.navigate();
-  });
-
-  test('should do something @smoke', async () => {
-    // Arrange
-    await myPage.doSomething();
-    
-    // Act
-    const result = await myPage.getResult();
-    
-    // Assert
-    expect(result).toBe('expected');
-  });
-});
-```
-
-## Page Objects
-
-### LoginPage
-```typescript
-const loginPage = new LoginPage(page);
-await loginPage.navigate();
-await loginPage.login(username, password);
-```
-
-### NavigationPage
-```typescript
-const navPage = new NavigationPage(page);
-await navPage.goToSection('Grade Report');
-await navPage.logout();
-```
-
-### DashboardPage
-```typescript
-const dashboardPage = new DashboardPage(page);
-await dashboardPage.goto();
-const message = await dashboardPage.getWelcomeMessage();
-```
-
-## CI/CD Integration
-
-### GitHub Actions Example
-```yaml
-name: Playwright Tests
-on: [push, pull_request]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - run: npm ci
-      - run: npx playwright test
-        env:
-          CI: true
-          BASE_URL: ${{ secrets.BASE_URL }}
-          TEST_USERNAME: ${{ secrets.TEST_USERNAME }}
-          TEST_PASSWORD: ${{ secrets.TEST_PASSWORD }}
-```
-
-## Troubleshooting
-
-### Tests Failing Due to Timeout
-- Increase timeout in `playwright.config.ts`
-- Check if application is slow to respond
-
-### Authentication Issues
-- Verify credentials in `.env` file
-- Check if `storageState.json` is valid
-- Set `SKIP_AUTH=false` to force fresh login
-
-### Flaky Tests
-- Tests automatically retry (1 local, 2 CI)
-- Add explicit waits instead of hardcoded delays
-- Use `force: true` for elements covered by overlays
-
-## Notes
-
-- **CometChat**: This is a third-party chat widget. "CometChat login failed!" messages are non-critical and should not cause test failures.
-- **Storage State**: Pre-authenticated state is saved for faster tests.
-- **Screenshots**: Automatically captured on test failure in `error-screenshots/`.
-
-## License
-
-MIT
-
+- **Agnostic Structure**: Ready to be cloned and integrated over any domain via `.env`.
+- **Page Object Model (POM)**: Enforced object-oriented layout inside `/pages`.
+- **Advanced Selectors**: Emphasizes generic role testing or unique attribute targeting for robustness.
+- **Flakiness Mitigation**: Out-of-the-box parallelization capability combined with a configurable retry-hierarchy (`CI=1`/`Local=0`).
+- **Resilient Waiting**: Complete removal of arbitrary `page.waitForTimeout` logic in favor of internal Playwright web-first assertions and actionability checks.

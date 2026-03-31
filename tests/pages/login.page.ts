@@ -1,56 +1,40 @@
 import { Page, Locator } from '@playwright/test';
 import { BasePage } from './base.page';
 
-/**
- * Login Page Object
- *
- * Handles user authentication with a 4-priority locator strategy.
- */
 export class LoginPage extends BasePage {
-  readonly emailInput: Locator;
+  // Selectors based on the-internet.herokuapp.com/login structure
+  readonly usernameInput: Locator;
   readonly passwordInput: Locator;
   readonly loginButton: Locator;
+  readonly successMessage: Locator;
+  readonly errorMessage: Locator;
 
   constructor(page: Page) {
     super(page);
-
-    // Priority 1: getByPlaceholder
-    // Priority 2: CSS selector
-    // Priority 3: XPath (Specific)
-    // Priority 4: XPath (Alternative)
-    this.emailInput = this.page.getByPlaceholder('Enter email')
-      .or(this.page.locator('input[name="email"]'))
-      .or(this.page.locator('//input[@placeholder="Enter email"]'))
-      .or(this.page.locator('//input[contains(@class, "form-control")]').first());
-
-    this.passwordInput = this.page.getByPlaceholder('············')
-      .or(this.page.locator('input[name="password"]'))
-      .or(this.page.locator('//input[@placeholder="············"]'))
-      .or(this.page.locator('input[type="password"]'));
-
-    this.loginButton = this.page.getByRole('button', { name: /login|sign in/i })
-      .or(this.page.locator('button[type="submit"]'))
-      .or(this.page.locator('//button[contains(text(),"Login")]'))
-      .or(this.page.locator('button.btn-primary'));
+    this.usernameInput = page.locator('#username');
+    this.passwordInput = page.locator('#password');
+    // Using a more stable role-based locator
+    this.loginButton = page.getByRole('button', { name: /login/i }); 
+    this.successMessage = page.locator('#flash.success');
+    this.errorMessage = page.locator('#flash.error');
   }
 
-  async navigate() {
-    await this.goto('/login');
-    await this.waitForPageLoad();
+  // Action methods
+  async navigateToLogin() {
+    await this.navigate('/login');
   }
 
   async login(username: string, password: string) {
-    await this.page.waitForLoadState('networkidle');
-    await this.emailInput.first().scrollIntoViewIfNeeded();
-    await this.emailInput.first().fill(username);
-    await this.passwordInput.first().scrollIntoViewIfNeeded();
-    await this.passwordInput.first().fill(password);
-    await this.loginButton.first().scrollIntoViewIfNeeded();
-    await this.loginButton.first().click();
-    await this.page.waitForURL(/\/dashboard/, { timeout: 30000 });
+    await this.fillForm(this.usernameInput, username);
+    await this.fillForm(this.passwordInput, password);
+    await this.clickElement(this.loginButton);
   }
 
-  async isVisible(): Promise<boolean> {
-    return this.emailInput.isVisible().catch(() => false);
+  async isLoginSuccessful() {
+    return await this.isElementVisible(this.successMessage);
+  }
+
+  async isLoginFailed() {
+    return await this.isElementVisible(this.errorMessage);
   }
 }
