@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - img "University Copilot" [ref=e9]
+      - generic [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Dashboard" [ref=e13] [cursor=pointer]:
+              - /url: /ERP/dashboard
+              - generic [ref=e14]: Dashboard
+          - listitem [ref=e15]:
+            - link "Discussion" [ref=e16] [cursor=pointer]:
+              - /url: /LMS/discussion
+              - generic [ref=e17]: Discussion
+          - listitem [ref=e18]:
+            - link "Virtual Class" [ref=e19] [cursor=pointer]:
+              - /url: /LMS/virtual-class
+              - generic [ref=e20]: Virtual Class
+          - listitem [ref=e21]:
+            - link "Course" [ref=e22] [cursor=pointer]:
+              - /url: /LMS/course
+              - generic [ref=e23]: Course
+          - listitem [ref=e24]:
+            - link "Program" [ref=e25] [cursor=pointer]:
+              - /url: /ERP/program
+              - generic [ref=e26]: Program
+          - listitem [ref=e27]:
+            - link "Role Management" [ref=e28] [cursor=pointer]:
+              - /url: /ERP/role-management
+              - generic [ref=e29]: Role Management
+          - listitem [ref=e30]:
+            - link "Examination" [ref=e31] [cursor=pointer]:
+              - /url: /ERP/examination
+              - generic [ref=e32]: Examination
+          - listitem [ref=e33]:
+            - link "Grade Report" [ref=e34] [cursor=pointer]:
+              - /url: /ERP/grade-report
+              - generic [ref=e35]: Grade Report
+          - listitem [ref=e36]:
+            - link "User Management" [ref=e37] [cursor=pointer]:
+              - /url: /ERP/user-management
+              - generic [ref=e38]: User Management
+          - listitem [ref=e39]:
+            - link "Fees Management" [ref=e40] [cursor=pointer]:
+              - /url: /ERP/fees/staff
+              - generic [ref=e41]: Fees Management
+          - listitem [ref=e42]:
+            - link "Reports" [ref=e43] [cursor=pointer]:
+              - /url: /ERP/report-management
+              - generic [ref=e44]: Reports
+          - listitem [ref=e45]:
+            - link "Requests" [ref=e46] [cursor=pointer]:
+              - /url: /ERP/staff-request
+              - generic [ref=e47]: Requests
+          - listitem [ref=e48]:
+            - link "Announcements" [ref=e49] [cursor=pointer]:
+              - /url: /ERP/announcement
+              - generic [ref=e50]: Announcements
+          - listitem [ref=e51]:
+            - link "Add On" [ref=e52] [cursor=pointer]:
+              - /url: /ERP/add_ons
+              - generic [ref=e53]: Add On
+        - generic [ref=e54]:
+          - separator [ref=e55]
+          - generic [ref=e57]:
+            - img "avatarImg" [ref=e59] [cursor=pointer]
+            - generic [ref=e60]:
+              - generic "Dildar Automation User" [ref=e62] [cursor=pointer]
+              - text: dildar.singh@edufusiontech.com
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - heading "Welcome, Dildar Automation" [level=3] [ref=e75]
+        - generic [ref=e76]:
+          - generic "AI Portal" [ref=e77]
+          - generic [ref=e82] [cursor=pointer]: "0"
+      - generic [ref=e83]:
+        - generic [ref=e84]:
+          - paragraph [ref=e85]: Overview
+          - generic [ref=e86]:
+            - generic [ref=e91] [cursor=pointer]:
+              - generic [ref=e92]:
+                - generic [ref=e93]: 2026-27
+                - combobox [ref=e95]
+              - img [ref=e98]
+            - generic [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]:
+                - generic [ref=e106]: January
+                - combobox [ref=e108]
+              - img [ref=e111]
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - paragraph [ref=e116]: Programs
+            - generic [ref=e117]: "9"
+          - generic [ref=e119]:
+            - paragraph [ref=e120]: Staffs
+            - generic [ref=e121]: "114"
+          - generic [ref=e123]:
+            - paragraph [ref=e124]: Inactive Staff
+            - generic [ref=e125]: "0"
+          - generic [ref=e127]:
+            - paragraph [ref=e128]: Students
+            - generic [ref=e129]: "6367"
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: Inactive Student
+            - generic [ref=e133]: "593"
+          - generic [ref=e135]:
+            - paragraph [ref=e136]: Program Coordinators
+            - generic [ref=e137]: "8"
+          - generic [ref=e139]:
+            - paragraph [ref=e140]: Course Coordinators
+            - generic [ref=e141]: "1"
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: Courses
+            - generic [ref=e145]: "322"
+          - generic [ref=e147]:
+            - paragraph [ref=e148]: Assignments
+            - generic [ref=e149]: "37"
+          - generic [ref=e151]:
+            - paragraph [ref=e152]: Assignment Evaluation Pending
+            - generic [ref=e153]: "4"
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - paragraph [ref=e158]: Announcements
+            - link "View all announcements" [ref=e159] [cursor=pointer]:
+              - /url: /ERP/announcement
+              - img [ref=e160]
+          - generic [ref=e162] [cursor=pointer]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Academic Calendar for Jan 2025 Batch
+              - generic [ref=e165]: Super Admin
+            - generic [ref=e166]:
+              - generic [ref=e168]: Leave planner
+              - paragraph [ref=e169]:
+                - paragraph [ref=e170]: We are provide one day leave tomorrow for reason of counselling.
+          - generic [ref=e171] [cursor=pointer]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Academic Calendar for Jan 2025 Batch
+              - generic [ref=e174]: LMS operator
+              - generic [ref=e175]: "+6"
+            - generic [ref=e176]:
+              - generic [ref=e178]: Announcement
+              - paragraph [ref=e179]:
+                - paragraph [ref=e180]: Announcement
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - paragraph [ref=e184]:
+              - text: Upcoming Event
+              - generic [ref=e185]: "0"
+            - link "View all upcoming events" [ref=e186] [cursor=pointer]:
+              - /url: /ERP/announcement
+              - img [ref=e187]
+          - paragraph [ref=e190]: You're all caught up! No Upcoming Events
+        - generic [ref=e193]:
+          - generic [ref=e194]:
+            - paragraph [ref=e196]:
+              - text: Scheduled Classes
+              - generic [ref=e197]: "0"
+            - link [ref=e198] [cursor=pointer]:
+              - /url: /LMS/virtual-class/scheduled-classes
+              - img [ref=e199]
+          - paragraph [ref=e202]: You're all set for now! No Scheduled Classes.
+      - generic [ref=e205]:
+        - generic [ref=e206]:
+          - paragraph [ref=e207]: Assignment Submission Overview
+          - img [ref=e209]
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - generic [ref=e215]: Academic Year
+            - generic [ref=e219] [cursor=pointer]:
+              - generic [ref=e220]:
+                - generic [ref=e221]: 2026-27
+                - combobox [ref=e223]
+              - img [ref=e226]
+          - generic [ref=e228]:
+            - generic [ref=e229]: Academic Session
+            - generic [ref=e233] [cursor=pointer]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: January
+                - combobox [ref=e237]
+              - img [ref=e240]
+          - generic [ref=e242]:
+            - generic [ref=e243]: Faculty
+            - generic [ref=e247] [cursor=pointer]:
+              - generic [ref=e248]:
+                - generic [ref=e249]: Select Faculty
+                - combobox [ref=e251]
+              - img [ref=e254]
+          - generic [ref=e256]:
+            - generic [ref=e257]: Program
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Select Program
+                - generic:
+                  - generic:
+                    - img
+          - generic [ref=e258]:
+            - generic [ref=e259]: Batch
+            - generic:
+              - generic:
+                - generic:
+                  - generic: Select Batch
+                - generic:
+                  - generic:
+                    - img
+        - paragraph [ref=e262]: Select Batch to Generate Chart
+      - generic [ref=e266]:
+        - generic [ref=e267]:
+          - paragraph [ref=e268]: Discussions
+          - link [ref=e269] [cursor=pointer]:
+            - /url: /LMS/discussion
+            - img [ref=e270]
+        - generic [ref=e272]:
+          - generic [ref=e273]:
+            - generic [ref=e274]: Announcement for Exam
+            - generic [ref=e275]: 5 hours ago
+          - paragraph [ref=e277]: new automation test
+          - paragraph [ref=e278]: "Posted by : Development Team Edufusion"
+          - paragraph [ref=e280]: dildar automation test
+          - link "View" [ref=e283] [cursor=pointer]:
+            - /url: /LMS/discussion/69ac24e187eb137b763c6668
+        - generic [ref=e284]:
+          - generic [ref=e285]:
+            - generic [ref=e286]: Announcement for Exam
+            - generic [ref=e287]: 6 hours ago
+          - paragraph [ref=e289]: test by automation
+          - paragraph [ref=e290]: "Posted by : Development Team Edufusion"
+          - paragraph [ref=e292]: mm
+          - link "View" [ref=e295] [cursor=pointer]:
+            - /url: /LMS/discussion/69ac192787eb137b763c6667
+  - img
+```

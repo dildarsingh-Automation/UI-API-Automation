@@ -1,0 +1,14 @@
+Login successful, navigated to: https://copilot-student.wowlabz.com/ERP/dashboard
+Navigation to Examination warning: locator.scrollIntoViewIfNeeded: Test timeout of 30000ms exceeded.
+Call log:
+  - attempting scroll into view action
+    - waiting for element to be stable
+
+Navigation to Grade Report warning: locator.count: Target page, context or browser has been closed
+Navigation to User Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Fees Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Reports warning: locator.count: Target page, context or browser has been closed
+Navigation to Requests warning: locator.count: Target page, context or browser has been closed
+Navigation to Announcements warning: locator.count: Target page, context or browser has been closed
+Navigation to Add On warning: locator.count: Target page, context or browser has been closed
+Logout warning: locator.waitFor: Target page, context or browser has been closed

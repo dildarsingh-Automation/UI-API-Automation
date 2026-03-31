@@ -1,0 +1,31 @@
+Warning: Failed to navigate to Fees Management: Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /\/fees-management/
+Received string:  "https://copilot-student.wowlabz.com/ERP/fees/staff"
+Timeout: 60000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 60000ms
+    63 × unexpected value "https://copilot-student.wowlabz.com/ERP/fees/staff"
+
+Warning: Failed to navigate to Reports: Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /\/reports/
+Received string:  "https://copilot-student.wowlabz.com/ERP/report-management"
+Timeout: 60000ms
+
+Call log:
+  - Expect "toHaveURL" with timeout 60000ms
+    63 × unexpected value "https://copilot-student.wowlabz.com/ERP/report-management"
+
+Warning: Failed to navigate to Requests: Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /\/requests/
+Received string:  "https://copilot-student.wowlabz.com/ERP/profile"
+
+Call log:
+  - Expect "toHaveURL" with timeout 60000ms
+    43 × unexpected value "https://copilot-student.wowlabz.com/ERP/profile"
+
+Warning: Failed to navigate to Announcements: Error: locator.count: Target page, context or browser has been closed
+Warning: Failed to navigate to Add On: Error: locator.count: Target page, context or browser has been closed

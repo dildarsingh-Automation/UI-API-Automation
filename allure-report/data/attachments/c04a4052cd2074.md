@@ -1,0 +1,389 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - img "University Copilot" [ref=e9]
+      - generic [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Dashboard" [ref=e13] [cursor=pointer]:
+              - /url: /ERP/dashboard
+              - generic [ref=e14]: Dashboard
+          - listitem [ref=e15]:
+            - link "Discussion" [ref=e16] [cursor=pointer]:
+              - /url: /LMS/discussion
+              - generic [ref=e17]: Discussion
+          - listitem [ref=e18]:
+            - link "Virtual Class" [ref=e19] [cursor=pointer]:
+              - /url: /LMS/virtual-class
+              - generic [ref=e20]: Virtual Class
+          - listitem [ref=e21]:
+            - link "Course" [ref=e22] [cursor=pointer]:
+              - /url: /LMS/course
+              - generic [ref=e23]: Course
+          - listitem [ref=e24]:
+            - link "Program" [ref=e25] [cursor=pointer]:
+              - /url: /ERP/program
+              - generic [ref=e26]: Program
+          - listitem [ref=e27]:
+            - link "Role Management" [ref=e28] [cursor=pointer]:
+              - /url: /ERP/role-management
+              - generic [ref=e29]: Role Management
+          - listitem [ref=e30]:
+            - link "Examination" [ref=e31] [cursor=pointer]:
+              - /url: /ERP/examination
+              - generic [ref=e32]: Examination
+          - listitem [ref=e33]:
+            - link "Grade Report" [ref=e34] [cursor=pointer]:
+              - /url: /ERP/grade-report
+              - generic [ref=e35]: Grade Report
+          - listitem [ref=e36]:
+            - link "User Management" [ref=e37] [cursor=pointer]:
+              - /url: /ERP/user-management
+              - generic [ref=e38]: User Management
+          - listitem [ref=e39]:
+            - link "Fees Management" [ref=e40] [cursor=pointer]:
+              - /url: /ERP/fees/staff
+              - generic [ref=e41]: Fees Management
+          - listitem [ref=e42]:
+            - link "Reports" [ref=e43] [cursor=pointer]:
+              - /url: /ERP/report-management
+              - generic [ref=e44]: Reports
+          - listitem [ref=e45]:
+            - link "Requests" [ref=e46] [cursor=pointer]:
+              - /url: /ERP/staff-request
+              - generic [ref=e47]: Requests
+          - listitem [ref=e48]:
+            - link "Announcements" [ref=e49] [cursor=pointer]:
+              - /url: /ERP/announcement
+              - generic [ref=e50]: Announcements
+          - listitem [ref=e51]:
+            - link "Add On" [ref=e52] [cursor=pointer]:
+              - /url: /ERP/add_ons
+              - generic [ref=e53]: Add On
+        - generic [ref=e54]:
+          - separator [ref=e55]
+          - generic [ref=e57]:
+            - img "avatarImg" [ref=e59] [cursor=pointer]
+            - generic [ref=e60]:
+              - generic "Dildar Automation User" [ref=e62] [cursor=pointer]
+              - text: dildar.singh@edufusiontech.com
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e73]: My Profile
+        - generic [ref=e79] [cursor=pointer]: "0"
+      - generic [ref=e80]:
+        - generic [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - heading "dildar automation user" [level=4] [ref=e87]
+              - generic [ref=e89]: Super Admin
+            - generic [ref=e90]:
+              - generic [ref=e91]: "Enrollment Number: VGU111"
+              - generic [ref=e92]: "Email Address: dildar.singh@edufusiontech.com"
+            - generic [ref=e94]: "Profile Created On: 03 Mar 2026"
+          - generic [ref=e96]:
+            - text: "Program:"
+            - generic [ref=e97]:
+              - generic [ref=e99]: Bachelor of Arts
+              - generic [ref=e101]: Bachelor of Business Administration
+              - generic [ref=e103]: Bachelor of Computer Applications
+              - generic [ref=e105]: Diploma in Computer Application
+              - generic [ref=e107]: Master of Arts in English
+              - generic [ref=e109]: Master of Business Administration
+              - generic [ref=e111]: Master of Computer Applications
+              - generic [ref=e113]: Master of Science in Mathematics
+              - generic [ref=e115]: Masters in Journalism and Mass Communication
+          - generic [ref=e117]:
+            - text: "Batch:"
+            - generic [ref=e118]:
+              - generic [ref=e120]: 22WBBADMK
+              - generic [ref=e122]: 22WBBAFIN
+              - generic [ref=e124]: 22WBBAGEN
+              - generic [ref=e126]: 22WBBAREMT
+              - generic [ref=e128]: 22WBCAARI
+              - generic [ref=e130]: 22WBCABCT
+              - generic [ref=e132]: 22WBCACTI
+              - generic [ref=e134]: 22WBCADTS
+              - generic [ref=e136]: 22WBCAGEN
+              - generic [ref=e138]: 22WBCAUSX
+              - generic [ref=e140]: 22WMBAMRT
+              - generic [ref=e142]: 23SBBADMK
+              - generic [ref=e144]: 23SBBAFIN
+              - generic [ref=e146]: 23SBBAGEN
+              - generic [ref=e148]: 23SBBAREMT
+              - generic [ref=e150]: 23SBCAARI
+              - generic [ref=e152]: 23SBCABCT
+              - generic [ref=e154]: 23SBCACTI
+              - generic [ref=e156]: 23SBCADTS
+              - generic [ref=e158]: 23SBCAGEN
+              - generic [ref=e160]: 23SBCAUSX
+              - generic [ref=e162]: 23SMBAAGB
+              - generic [ref=e164]: 23SMBAFMT
+              - generic [ref=e166]: 23SMBAHCM
+              - generic [ref=e168]: 23SMBAHRM
+              - generic [ref=e170]: 23SMBAIBM
+              - generic [ref=e172]: 23SMBAITM
+              - generic [ref=e174]: 23SMBAMRT
+              - generic [ref=e176]: 23SMBAOPM
+              - generic [ref=e178]: 23SMCAGEN
+              - generic [ref=e180]: 23SMSAMAT
+              - generic [ref=e182]: 23WBAACAP
+              - generic [ref=e184]: 23WBAAECO
+              - generic [ref=e186]: 23WBAAENG
+              - generic [ref=e188]: 23WBAAHIS
+              - generic [ref=e190]: 23WBAAINR
+              - generic [ref=e192]: 23WBAALIT
+              - generic [ref=e194]: 23WBAAPPD
+              - generic [ref=e196]: 23WBAAPSC
+              - generic [ref=e198]: 23WBAAPSY
+              - generic [ref=e200]: 23WBBADMK
+              - generic [ref=e202]: 23WBBAFIN
+              - generic [ref=e204]: 23WBBAGEN
+              - generic [ref=e206]: 23WBBAREM
+              - generic [ref=e208]: 23WBCAARI
+              - generic [ref=e210]: 23WBCABCT
+              - generic [ref=e212]: 23WBCACTI
+              - generic [ref=e214]: 23WBCADTS
+              - generic [ref=e216]: 23WBCAGEN
+              - generic [ref=e218]: 23WBCAUSX
+              - generic [ref=e220]: 23WMAAENG
+              - generic [ref=e222]: 23WMBAAGB
+              - generic [ref=e224]: 23WMBAFMT
+              - generic [ref=e226]: 23WMBAHCM
+              - generic [ref=e228]: 23WMBAHRM
+              - generic [ref=e230]: 23WMBAIBM
+              - generic [ref=e232]: 23WMBAITM
+              - generic [ref=e234]: 23WMBAMRT
+              - generic [ref=e236]: 23WMBAOPM
+              - generic [ref=e238]: 23WMCAGEN
+              - generic [ref=e240]: 23WMSAMAT
+              - generic [ref=e242]: 24SBA0CA
+              - generic [ref=e244]: 24SBA0ECO
+              - generic [ref=e246]: 24SBA0HIS
+              - generic [ref=e248]: 24SBA0IR
+              - generic [ref=e250]: 24SBA0LIT
+              - generic [ref=e252]: 24SBA0PPD
+              - generic [ref=e254]: 24SBA0PSY
+              - generic [ref=e256]: 24SBAAENG
+              - generic [ref=e258]: 24SBAPSC
+              - generic [ref=e260]: 24SBBADMK
+              - generic [ref=e262]: 24SBBAFIN
+              - generic [ref=e264]: 24SBBAGEN
+              - generic [ref=e266]: 24SBBAREMT
+              - generic [ref=e268]: 24SBCAARI
+              - generic [ref=e270]: 24SBCABCT
+              - generic [ref=e272]: 24SBCACTI
+              - generic [ref=e274]: 24SBCADTS
+              - generic [ref=e276]: 24SBCAGEN
+              - generic [ref=e278]: 24SBCAUSX
+              - generic [ref=e280]: 24SMAAENG
+              - generic [ref=e282]: 24SMBAAGB
+              - generic [ref=e284]: 24SMBAFMT
+              - generic [ref=e286]: 24SMBAHCM
+              - generic [ref=e288]: 24SMBAHRM
+              - generic [ref=e290]: 24SMBAIBM
+              - generic [ref=e292]: 24SMBAITM
+              - generic [ref=e294]: 24SMBAMRT
+              - generic [ref=e296]: 24SMBAOPM
+              - generic [ref=e298]: 24SMCAGCI
+              - generic [ref=e300]: 24SMCAGEN
+              - generic [ref=e302]: 24SMSAMAT
+              - generic [ref=e304]: 24WBA0ENG
+              - generic [ref=e306]: 24WBAACAP
+              - generic [ref=e308]: 24WBAAECO
+              - generic [ref=e310]: 24WBAAHIS
+              - generic [ref=e312]: 24WBAAINR
+              - generic [ref=e314]: 24WBAALIT
+              - generic [ref=e316]: 24WBAAPPD
+              - generic [ref=e318]: 24WBAAPSC
+              - generic [ref=e320]: 24WBAAPSY
+              - generic [ref=e322]: 24WBBADMK
+              - generic [ref=e324]: 24WBBAFIN
+              - generic [ref=e326]: 24WBBAGEN
+              - generic [ref=e328]: 24WBBAREM
+              - generic [ref=e330]: 24WBCAARI
+              - generic [ref=e332]: 24WBCABCT
+              - generic [ref=e334]: 24WBCACTI
+              - generic [ref=e336]: 24WBCADTS
+              - generic [ref=e338]: 24WBCAGEN
+              - generic [ref=e340]: 24WBCAUSX
+              - generic [ref=e342]: 24WMAAENG
+              - generic [ref=e344]: 24WMBAAGB
+              - generic [ref=e346]: 24WMBAFMT
+              - generic [ref=e348]: 24WMBAHCM
+              - generic [ref=e350]: 24WMBAHRM
+              - generic [ref=e352]: 24WMBAIBM
+              - generic [ref=e354]: 24WMBAITM
+              - generic [ref=e356]: 24WMBAMRT
+              - generic [ref=e358]: 24WMBAOPM
+              - generic [ref=e360]: 24WMCAGEN
+              - generic [ref=e362]: 24WMSAMAT
+              - generic [ref=e364]: 25SBAACAP
+              - generic [ref=e366]: 25SBAAECO
+              - generic [ref=e368]: 25SBAAENG
+              - generic [ref=e370]: 25SBAAHIS
+              - generic [ref=e372]: 25SBAAINR
+              - generic [ref=e374]: 25SBAALIT
+              - generic [ref=e376]: 25SBAAPPD
+              - generic [ref=e378]: 25SBAAPSC
+              - generic [ref=e380]: 25SBAAPSY
+              - generic [ref=e382]: 25SBBADMK
+              - generic [ref=e384]: 25SBBAFIN
+              - generic [ref=e386]: 25SBBAGEN
+              - generic [ref=e388]: 25SBBAREM
+              - generic [ref=e390]: 25SBCAARI
+              - generic [ref=e392]: 25SBCABCT
+              - generic [ref=e394]: 25SBCACTI
+              - generic [ref=e396]: 25SBCADTS
+              - generic [ref=e398]: 25SBCAGEN
+              - generic [ref=e400]: 25SBCAUSX
+              - generic [ref=e402]: 25SMAAENG
+              - generic [ref=e404]: 25SMAAJMC
+              - generic [ref=e406]: 25SMBAAGB
+              - generic [ref=e408]: 25SMBAFMT
+              - generic [ref=e410]: 25SMBAHCM
+              - generic [ref=e412]: 25SMBAHRM
+              - generic [ref=e414]: 25SMBAIBM
+              - generic [ref=e416]: 25SMBAITM
+              - generic [ref=e418]: 25SMBAMRT
+              - generic [ref=e420]: 25SMBAOPM
+              - generic [ref=e422]: 25SMCAGEN
+              - generic [ref=e424]: 25SMSAMAT
+              - generic [ref=e426]: 25WBAACAP
+              - generic [ref=e428]: 25WBAAECO
+              - generic [ref=e430]: 25WBAAENG
+              - generic [ref=e432]: 25WBAAHIS
+              - generic [ref=e434]: 25WBAAINR
+              - generic [ref=e436]: 25WBAALIT
+              - generic [ref=e438]: 25WBAAPPD
+              - generic [ref=e440]: 25WBAAPSC
+              - generic [ref=e442]: 25WBBADMK
+              - generic [ref=e444]: 25WBBAFIN
+              - generic [ref=e446]: 25WBBAGEN
+              - generic [ref=e448]: 25WBBAREM
+              - generic [ref=e450]: 25WBCAARI
+              - generic [ref=e452]: 25WBCABCT
+              - generic [ref=e454]: 25WBCACTI
+              - generic [ref=e456]: 25WBCADTS
+              - generic [ref=e458]: 25WBCAGEN
+              - generic [ref=e460]: 25WBCAUSX
+              - generic [ref=e462]: 25WMAAENG
+              - generic [ref=e464]: 25WMAAJMC
+              - generic [ref=e466]: 25WMBAAGB
+              - generic [ref=e468]: 25WMBAFMT
+              - generic [ref=e470]: 25WMBAHCM
+              - generic [ref=e472]: 25WMBAHRM
+              - generic [ref=e474]: 25WMBAIBM
+              - generic [ref=e476]: 25WMBAITM
+              - generic [ref=e478]: 25WMBAMRT
+              - generic [ref=e480]: 25WMBAOPM
+              - generic [ref=e482]: 25WMCAGEN
+              - generic [ref=e484]: 25WMSAMAT
+              - generic [ref=e486]: BA-SEM1-BACK-2025
+              - generic [ref=e488]: BA-SEM2-BACK-2025
+              - generic [ref=e490]: BCA-SEM1-BACK-2025
+              - generic [ref=e492]: BCA-SEM2-BACK-2025
+              - generic [ref=e494]: BCA-SEM3-BACK-2025
+              - generic [ref=e496]: BCA-SEM4-BACK-2025
+              - generic [ref=e498]: DCS-JUL2024
+              - generic [ref=e500]: Demo batch
+              - generic [ref=e502]: MA-SEM1-BACK-2025
+              - generic [ref=e504]: MA-SEM2-BACK-2025
+              - generic [ref=e506]: MCA-SEM1-BACK-2025
+              - generic [ref=e508]: MCA-SEM2-BACK-2025
+              - generic [ref=e510]: MCA-SEM3-BACK-2025
+              - generic [ref=e512]: MSc-SEM1-BACK-2025
+              - generic [ref=e514]: MSc-SEM2-BACK-2025
+              - generic [ref=e516]: MSc-SEM3-BACK-2025
+        - generic [ref=e517]:
+          - generic [ref=e519]:
+            - heading "Basic Details" [level=3] [ref=e520]
+            - generic [ref=e521]:
+              - generic [ref=e522]:
+                - generic [ref=e523]:
+                  - generic [ref=e524]: Birth Date
+                  - text: 19-03-1998
+                - generic [ref=e525]:
+                  - generic [ref=e526]: Mobile Number
+                  - text: "3333333333"
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - generic [ref=e529]:
+                    - generic [ref=e530]: Blood Group
+                    - text: AB-
+                  - generic [ref=e531]:
+                    - generic [ref=e532]: Gender
+                    - text: Male
+                - generic [ref=e533]:
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: Pincode
+                    - text: "302017"
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: City
+                    - text: Jaipur
+                - generic [ref=e538]:
+                  - generic [ref=e539]:
+                    - generic [ref=e540]: State
+                    - text: Rajasthan
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: Country
+                    - text: India
+                - generic [ref=e544]:
+                  - generic [ref=e545]: Address
+                  - text: Regefg
+          - generic [ref=e547]:
+            - heading "Access Control" [level=3] [ref=e548]
+            - list [ref=e549]:
+              - listitem [ref=e550]:
+                - generic [ref=e551]: "Virtual meeting: All access"
+              - listitem [ref=e552]:
+                - generic [ref=e553]: "Student profile: All access"
+              - listitem [ref=e554]:
+                - generic [ref=e555]: "Reports: List, View, Create"
+              - listitem [ref=e556]:
+                - generic [ref=e557]: "Role management: All access"
+              - listitem [ref=e558]:
+                - generic [ref=e559]: "Student requests: All access"
+              - listitem [ref=e560]:
+                - generic [ref=e561]: "Departments: All access"
+              - listitem [ref=e562]:
+                - generic [ref=e563]: "Course: All access"
+              - listitem [ref=e564]:
+                - generic [ref=e565]: "Dashboard: All access"
+              - listitem [ref=e566]:
+                - generic [ref=e567]: "Organizations: All access"
+              - listitem [ref=e568]:
+                - generic [ref=e569]: "Programs: All access"
+              - listitem [ref=e570]:
+                - generic [ref=e571]: "Discussions: All access"
+              - listitem [ref=e572]:
+                - generic [ref=e573]: "Quizes: All access"
+              - listitem [ref=e574]:
+                - generic [ref=e575]: "Assignments: All access"
+              - listitem [ref=e576]:
+                - generic [ref=e577]: "Staff examination: All access"
+              - listitem [ref=e578]:
+                - generic [ref=e579]: "Alerts: All access"
+              - listitem [ref=e580]:
+                - generic [ref=e581]: "Quizes questions: All access"
+              - listitem [ref=e582]:
+                - generic [ref=e583]: "Student examination: All access"
+              - listitem [ref=e584]:
+                - generic [ref=e585]: "Fee: All access"
+              - listitem [ref=e586]:
+                - generic [ref=e587]: "User management: All access"
+              - listitem [ref=e588]:
+                - generic [ref=e589]: "Announcements: All access"
+              - listitem [ref=e590]:
+                - generic [ref=e591]: "Staff profile: All access"
+              - listitem [ref=e592]:
+                - generic [ref=e593]: "Discussions category: Create, View, List, Delete"
+              - listitem [ref=e594]:
+                - generic [ref=e595]: "Grade reports: Publish unpublish results, Internal marks upload, External marks upload, Generate results, Delete, View, List, Grade report, Approve modify results, Request modify results"
+  - img
+```

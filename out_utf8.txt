@@ -1,0 +1,890 @@
+{
+  "data": {
+    "_id": "69a6deeb3868003fa6f981c5",
+    "user_id": "69a6deeb3868003fa6f981c3",
+    "first_name": "dildar automation",
+    "last_name": "user",
+    "email": "dildar.singh@edufusiontech.com",
+    "address": "regefg",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "profile_image_data": null,
+    "country": "India",
+    "pincode": "302017",
+    "nationality": "Indian",
+    "blood_group": "AB-",
+    "birth_date": "19-03-1998",
+    "mobile_number": "3333333333",
+    "country_code": "+91",
+    "gender": "Male",
+    "user_type": "Staff",
+    "roll_number": "VGU111",
+    "created_at": 1772543723358,
+    "updated_at": 1774938663532,
+    "admission_team": null,
+    "provisional_no": null,
+    "deb_id": null,
+    "date_of_admission": null,
+    "category": null,
+    "govt_issued_identifier": null,
+    "govt_issued_identifier_no": null,
+    "country_of_residence": null,
+    "abc_id": null,
+    "no_abc_credit_transferred": null,
+    "locality": null,
+    "father_name": null,
+    "mother_name": null,
+    "marks_grade_obtained_in_qualifying_exam": null,
+    "departments": null,
+    "streams": null,
+    "role": {
+      "_id": "66bd834667d746c56bfbaed9",
+      "identifier": "super_admin",
+      "name": "Super Admin"
+    },
+    "personal_info": {
+      "name": "dildar automation user",
+      "email": "dildar.singh@edufusiontech.com",
+      "phone": "3333333333",
+      "address": "regefg",
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "pincode": "302017",
+      "birth_date": "19-03-1998",
+      "blood_group": "AB-",
+      "account_status": "ACTIVE",
+      "gender": "Male",
+      "nationality": "Indian",
+      "marital_status": "NA",
+      "religion": null,
+      "level": null,
+      "locality": null,
+      "admission_status": null,
+      "admission_team": null,
+      "date_of_admission": null,
+      "application_id": null,
+      "programDuration": null
+    },
+    "work_experience": null,
+    "passport_details": null,
+    "additional_info": {
+      "ugc_registered_email": null,
+      "ugc_registered_name": null,
+      "ugc_registered_phone": null,
+      "applicant_name": "dildar automation user",
+      "application_id": null,
+      "declaration_date": "NA",
+      "declaration_place": "NA"
+    },
+    "uploaded_documents": {},
+    "family_details": {
+      "father_details": {},
+      "mother_details": {}
+    },
+    "address_details": null,
+    "academic_details": null,
+    "academic_session": null,
+    "semester": null,
+    "programs": [
+      {
+        "_id": "67c2abd5d47beb59f72c8790",
+        "name": "DCS-JUL2024"
+      },
+      {
+        "_id": "677223371ab48f53d19cb5b7",
+        "name": "24SMAAENG"
+      },
+      {
+        "_id": "681f2f2de87ff3445cf237ec",
+        "name": "23SMBAITM"
+      },
+      {
+        "_id": "67de8440ce2dffc043efd054",
+        "name": "23WBCAARI"
+      },
+      {
+        "_id": "6808c7651fc09e60bf383124",
+        "name": "25SBCAGEN"
+      },
+      {
+        "_id": "67de8471ce2dffc043efd074",
+        "name": "23WBCAUSX"
+      },
+      {
+        "_id": "6772235c1ab48f53d19cb5d1",
+        "name": "24SBBADMK"
+      },
+      {
+        "_id": "677fa563e6b3db06e9d7dbe7",
+        "name": "24WBAACAP"
+      },
+      {
+        "_id": "6808c6cd1fc09e60bf382fc7",
+        "name": "25SBAAPSC"
+      },
+      {
+        "_id": "69050e576f565b1579d66a2c",
+        "name": "25WBAACAP"
+      },
+      {
+        "_id": "69050d0bc09029ca18765d6b",
+        "name": "25WBAAPSC"
+      },
+      {
+        "_id": "687f20dda262fb08a11969f6",
+        "name": "BCA-SEM2-BACK-2025"
+      },
+      {
+        "_id": "67de85c6ce2dffc043efd0fc",
+        "name": "22WBCADTS"
+      },
+      {
+        "_id": "690510edc09029ca18765d7e",
+        "name": "25WMBAHRM"
+      },
+      {
+        "_id": "67de83c4ce2dffc043efd020",
+        "name": "23SBCAARI"
+      },
+      {
+        "_id": "690510566f565b1579d66a30",
+        "name": "25WMAAJMC"
+      },
+      {
+        "_id": "6808c8491fc09e60bf383264",
+        "name": "25SMSAMAT"
+      },
+      {
+        "_id": "67dfbe04212b253c2d560baf",
+        "name": "24WMBAHRM"
+      },
+      {
+        "_id": "6808c7eb1fc09e60bf38320a",
+        "name": "25SMBAAGB"
+      },
+      {
+        "_id": "67de8501ce2dffc043efd0a1",
+        "name": "23WMCAGEN"
+      },
+      {
+        "_id": "67dfbe17212b253c2d560bb7",
+        "name": "24WMBAFMT"
+      },
+      {
+        "_id": "676fc29014eb7869dee0bdcd",
+        "name": "24SBA0IR"
+      },
+      {
+        "_id": "677223831ab48f53d19cb5d8",
+        "name": "24SBBAREMT"
+      },
+      {
+        "_id": "6808c7011fc09e60bf38300e",
+        "name": "25SBAAHIS"
+      },
+      {
+        "_id": "67723ce31ab48f53d19cbb8d",
+        "name": "24SBCAARI"
+      },
+      {
+        "_id": "67de833ece2dffc043efcff0",
+        "name": "22WBCABCT"
+      },
+      {
+        "_id": "676fc27014eb7869dee0bdc6",
+        "name": "24SBA0PPD"
+      },
+      {
+        "_id": "6808c73b1fc09e60bf3830c4",
+        "name": "25SBBADMK"
+      },
+      {
+        "_id": "67723d921ab48f53d19cbbe9",
+        "name": "24SMBAFMT"
+      },
+      {
+        "_id": "677fa517e6b3db06e9d7db93",
+        "name": "24WBAALIT"
+      },
+      {
+        "_id": "6808c6b01fc09e60bf382fa0",
+        "name": "25SBAALIT"
+      },
+      {
+        "_id": "67de838cce2dffc043efd008",
+        "name": "22WBCACTI"
+      },
+      {
+        "_id": "676fc25e14eb7869dee0bdbf",
+        "name": "24SBAPSC"
+      },
+      {
+        "_id": "6808c7921fc09e60bf383190",
+        "name": "25SBCACTI"
+      },
+      {
+        "_id": "67dfbdbc212b253c2d560b88",
+        "name": "24WBBADMK"
+      },
+      {
+        "_id": "67723d771ab48f53d19cbbdb",
+        "name": "24SMBAMRT"
+      },
+      {
+        "_id": "677fa57fe6b3db06e9d7dbf6",
+        "name": "24WBCAARI"
+      },
+      {
+        "_id": "67dd9802ce2dffc043ef85a7",
+        "name": "23WBAAINR"
+      },
+      {
+        "_id": "67dd97edce2dffc043ef859f",
+        "name": "23WBAAPPD"
+      },
+      {
+        "_id": "67de83d6ce2dffc043efd028",
+        "name": "23SBCADTS"
+      },
+      {
+        "_id": "69050cd46f565b1579d66a24",
+        "name": "25WBAAENG"
+      },
+      {
+        "_id": "69050b896f565b1579d66a1c",
+        "name": "25WBCACTI"
+      },
+      {
+        "_id": "68957b74cdbb0ab0a226c8b5",
+        "name": "MSc-SEM1-BACK-2025"
+      },
+      {
+        "_id": "6815d81a31a1ff2faf8efab1",
+        "name": "23WMBAMRT"
+      },
+      {
+        "_id": "67723dbd1ab48f53d19cbc05",
+        "name": "24SMBAITM"
+      },
+      {
+        "_id": "67de83eece2dffc043efd030",
+        "name": "23SBCABCT"
+      },
+      {
+        "_id": "6808c72a1fc09e60bf38309a",
+        "name": "25SBBAGEN"
+      },
+      {
+        "_id": "6808c76f1fc09e60bf383141",
+        "name": "25SBCAARI"
+      },
+      {},
+      {
+        "_id": "6808c7c41fc09e60bf3831e6",
+        "name": "25SMBAMRT"
+      },
+      {
+        "_id": "69050c0bc09029ca18765d65",
+        "name": "25WBBAGEN"
+      },
+      {
+        "_id": "68ea1bf7e77435cbd2ec94ff",
+        "name": "24SMCAGCI"
+      },
+      {
+        "_id": "69050d53c09029ca18765d74",
+        "name": "25WBAAHIS"
+      },
+      {
+        "_id": "677223a71ab48f53d19cb5df",
+        "name": "24SBBAFIN"
+      },
+      {
+        "_id": "681f2f13e87ff3445cf237e3",
+        "name": "23SMBAOPM"
+      },
+      {
+        "_id": "677fa590e6b3db06e9d7dc08",
+        "name": "24WBCABCT"
+      },
+      {
+        "_id": "67c7ee06d47beb59f72de750",
+        "name": "23WBAALIT"
+      },
+      {
+        "_id": "67dfbe51212b253c2d560bd9",
+        "name": "24WMBAOPM"
+      },
+      {
+        "_id": "6808c79d1fc09e60bf383199",
+        "name": "25SBCAUSX"
+      },
+      {
+        "_id": "6815d84631a1ff2faf8efac6",
+        "name": "23WMBAFMT"
+      },
+      {
+        "_id": "67723da71ab48f53d19cbbf7",
+        "name": "24SMBAIBM"
+      },
+      {
+        "_id": "6808c6f41fc09e60bf382fef",
+        "name": "25SBAAPSY"
+      },
+      {
+        "_id": "68149ecd31a1ff2faf8e4797",
+        "name": "22WBBAFIN"
+      },
+      {
+        "_id": "6815d83231a1ff2faf8efabe",
+        "name": "23WMBAHRM"
+      },
+      {
+        "_id": "69050cf96f565b1579d66a28",
+        "name": "25WBAAECO"
+      },
+      {
+        "_id": "67723d9e1ab48f53d19cbbf0",
+        "name": "24SMBAAGB"
+      },
+      {
+        "_id": "677fa521e6b3db06e9d7db9f",
+        "name": "24WBAAECO"
+      },
+      {
+        "_id": "676fc22e14eb7869dee0bdb1",
+        "name": "24SBA0LIT"
+      },
+      {
+        "_id": "677f959de6b3db06e9d7ca49",
+        "name": "24WMCAGEN"
+      },
+      {
+        "_id": "69050d1cc09029ca18765d70",
+        "name": "25WBAAINR"
+      },
+      {
+        "_id": "677fa587e6b3db06e9d7dbff",
+        "name": "24WBCADTS"
+      },
+      {
+        "_id": "6772234e1ab48f53d19cb5c9",
+        "name": "24SBBAGEN"
+      },
+      {
+        "_id": "6808c77c1fc09e60bf38314b",
+        "name": "25SBCADTS"
+      },
+      {
+        "_id": "67de8532ce2dffc043efd0bf",
+        "name": "23WMSAMAT"
+      },
+      {
+        "_id": "69050ce66f565b1579d66a26",
+        "name": "25WBAALIT"
+      },
+      {
+        "_id": "67723d221ab48f53d19cbba2",
+        "name": "24SBCACTI"
+      },
+      {
+        "_id": "6808c6e81fc09e60bf382fe3",
+        "name": "25SBAAINR"
+      },
+      {
+        "_id": "681f2ecee87ff3445cf2377d",
+        "name": "23SMBAHRM"
+      },
+      {
+        "_id": "677fa55be6b3db06e9d7dbde",
+        "name": "24WBAAHIS"
+      },
+      {
+        "_id": "6815d88f31a1ff2faf8efaed",
+        "name": "23WMBAOPM"
+      },
+      {
+        "_id": "6808c6be1fc09e60bf382fac",
+        "name": "25SBAAECO"
+      },
+      {
+        "_id": "6808c8021fc09e60bf38321a",
+        "name": "25SMBAOPM"
+      },
+      {
+        "_id": "67dfbe6d212b253c2d560be9",
+        "name": "24WMBAHCM"
+      },
+      {
+        "_id": "69050c5fc09029ca18765d69",
+        "name": "25WBBAREM"
+      },
+      {
+        "_id": "681f2fa6e87ff3445cf23865",
+        "name": "23SMBAHCM"
+      },
+      {
+        "_id": "6815dc5f31a1ff2faf8eff62",
+        "name": "23WBBADMK"
+      },
+      {
+        "_id": "67de83b5ce2dffc043efd018",
+        "name": "23SBCAGEN"
+      },
+      {
+        "_id": "6808c81c1fc09e60bf38322d",
+        "name": "25SMBAHCM"
+      },
+      {
+        "_id": "69050ba86f565b1579d66a1e",
+        "name": "25WBCABCT"
+      },
+      {
+        "_id": "69051107c09029ca18765d80",
+        "name": "25WMBAFMT"
+      },
+      {
+        "_id": "690510d1c09029ca18765d7c",
+        "name": "25WMBAMRT"
+      },
+      {
+        "_id": "67fe22934c1000bc4b4afee2",
+        "name": "Demo batch"
+      },
+      {
+        "_id": "681f2ef7e87ff3445cf237b7",
+        "name": "23SMBAAGB"
+      },
+      {
+        "_id": "67dfbe32212b253c2d560bc7",
+        "name": "24WMBAIBM"
+      },
+      {
+        "_id": "687f2077a262fb08a119698e",
+        "name": "BCA-SEM1-BACK-2025"
+      },
+      {
+        "_id": "6905111ac09029ca18765d82",
+        "name": "25WMBAAGB"
+      },
+      {
+        "_id": "677653c8ef3428e99eeaf515",
+        "name": "24SMBAHCM"
+      },
+      {
+        "_id": "681f2ee6e87ff3445cf2379d",
+        "name": "23SMBAFMT"
+      },
+      {
+        "_id": "6815d8af31a1ff2faf8efb00",
+        "name": "23WMBAHCM"
+      },
+      {
+        "_id": "6808c7cf1fc09e60bf3831fa",
+        "name": "25SMBAHRM"
+      },
+      {
+        "_id": "6808c8371fc09e60bf383245",
+        "name": "25SMCAGEN"
+      },
+      {
+        "_id": "67dfbdf6212b253c2d560ba7",
+        "name": "24WMBAMRT"
+      },
+      {
+        "_id": "690510366f565b1579d66a2e",
+        "name": "25WMAAENG"
+      },
+      {
+        "_id": "6905119cc09029ca18765d88",
+        "name": "25WMBAITM"
+      },
+      {
+        "_id": "688c89d0bc82236b80bb5eb0",
+        "name": "MCA-SEM1-BACK-2025"
+      },
+      {
+        "_id": "677fa551e6b3db06e9d7dbd4",
+        "name": "24WBAAPSY"
+      },
+      {
+        "_id": "677fa52ce6b3db06e9d7dbbc",
+        "name": "24WBAAPSC"
+      },
+      {
+        "_id": "6808c6dc1fc09e60bf382fcf",
+        "name": "25SBAAPPD"
+      },
+      {
+        "_id": "67de8464ce2dffc043efd06c",
+        "name": "23WBCACTI"
+      },
+      {
+        "_id": "6834157c06fba7200ba12dac",
+        "name": "25SMAAJMC"
+      },
+      {
+        "_id": "67de8430ce2dffc043efd04a",
+        "name": "23WBCAGEN"
+      },
+      {
+        "_id": "67723d5f1ab48f53d19cbbce",
+        "name": "24SMCAGEN"
+      },
+      {
+        "_id": "67dfbdd9212b253c2d560b98",
+        "name": "24WBBAREM"
+      },
+      {
+        "_id": "68957bc6cdbb0ab0a226c8c0",
+        "name": "MSc-SEM3-BACK-2025"
+      },
+      {
+        "_id": "69050b106f565b1579d66a16",
+        "name": "25WBCAGEN"
+      },
+      {
+        "_id": "677fa545e6b3db06e9d7dbcb",
+        "name": "24WBAAINR"
+      },
+      {
+        "_id": "690511b5c09029ca18765d8a",
+        "name": "25WMBAHCM"
+      },
+      {
+        "_id": "69050b6d6f565b1579d66a1a",
+        "name": "25WBCADTS"
+      },
+      {
+        "_id": "688c89b70afa9490b6603a58",
+        "name": "MCA-SEM3-BACK-2025"
+      },
+      {
+        "_id": "6821c58fe87ff3445cf342e7",
+        "name": "23SBBAGEN"
+      },
+      {
+        "_id": "6808c6981fc09e60bf382f7c",
+        "name": "25SBAAENG"
+      },
+      {
+        "_id": "67de840bce2dffc043efd041",
+        "name": "23SBCAUSX"
+      },
+      {
+        "_id": "676fc2b714eb7869dee0bddb",
+        "name": "24SBA0HIS"
+      },
+      {
+        "_id": "67723d2b1ab48f53d19cbba9",
+        "name": "24SBCAUSX"
+      },
+      {
+        "_id": "6815d87331a1ff2faf8efad1",
+        "name": "23WMBAAGB"
+      },
+      {
+        "_id": "67723dea1ab48f53d19cbc35",
+        "name": "24SMSAMAT"
+      },
+      {
+        "_id": "677fa5a3e6b3db06e9d7dc31",
+        "name": "24WBCAUSX"
+      },
+      {
+        "_id": "6808c7881fc09e60bf383162",
+        "name": "25SBCABCT"
+      },
+      {
+        "_id": "6808c7b21fc09e60bf3831b2",
+        "name": "25SMAAENG"
+      },
+      {
+        "_id": "6808c7e01fc09e60bf383202",
+        "name": "25SMBAFMT"
+      },
+      {
+        "_id": "69050bca6f565b1579d66a20",
+        "name": "25WBCAUSX"
+      },
+      {
+        "_id": "677fa599e6b3db06e9d7dc26",
+        "name": "24WBCACTI"
+      },
+      {
+        "_id": "68957bdd01804f362dbd930c",
+        "name": "MSc-SEM2-BACK-2025"
+      },
+      {
+        "_id": "67723cb91ab48f53d19cbb86",
+        "name": "24SBCAGEN"
+      },
+      {
+        "_id": "6808c7521fc09e60bf383111",
+        "name": "25SBBAREM"
+      },
+      {
+        "_id": "6815d88131a1ff2faf8efad9",
+        "name": "23WMBAIBM"
+      },
+      {
+        "_id": "67723d171ab48f53d19cbb9b",
+        "name": "24SBCABCT"
+      },
+      {
+        "_id": "68149ec031a1ff2faf8e4751",
+        "name": "22WBBADMK"
+      },
+      {
+        "_id": "6821c581e87ff3445cf342df",
+        "name": "23SBBADMK"
+      },
+      {
+        "_id": "677114ef14eb7869dee0c133",
+        "name": "24SBAAENG"
+      },
+      {
+        "_id": "67de830bce2dffc043efcfd8",
+        "name": "22WBCAGEN"
+      },
+      {
+        "_id": "6815d8a031a1ff2faf8efaf8",
+        "name": "23WMBAITM"
+      },
+      {
+        "_id": "67723db11ab48f53d19cbbfe",
+        "name": "24SMBAOPM"
+      },
+      {
+        "_id": "6821c566e87ff3445cf342ba",
+        "name": "23SBBAREMT"
+      },
+      {
+        "_id": "67de855ace2dffc043efd0ce",
+        "name": "23WMAAENG"
+      },
+      {
+        "_id": "67dfbe60212b253c2d560be1",
+        "name": "24WMBAITM"
+      },
+      {
+        "_id": "6808c7f61fc09e60bf383212",
+        "name": "25SMBAIBM"
+      },
+      {
+        "_id": "69050b4d6f565b1579d66a18",
+        "name": "25WBCAARI"
+      },
+      {
+        "_id": "6808c70b1fc09e60bf38302c",
+        "name": "25SBAACAP"
+      },
+      {
+        "_id": "677f9cf0e6b3db06e9d7d2ab",
+        "name": "24WMAAENG"
+      },
+      {
+        "_id": "69050d2e6f565b1579d66a2a",
+        "name": "25WBAAPPD"
+      },
+      {
+        "_id": "69051162c09029ca18765d84",
+        "name": "25WMBAIBM"
+      },
+      {
+        "_id": "69050c45c09029ca18765d67",
+        "name": "25WBBAFIN"
+      },
+      {
+        "_id": "69050c216f565b1579d66a22",
+        "name": "25WBBADMK"
+      },
+      {
+        "_id": "67c7edf2d47beb59f72de749",
+        "name": "23WBAAENG"
+      },
+      {
+        "_id": "6815ddf531a1ff2faf8f0129",
+        "name": "23WBBAREM"
+      },
+      {
+        "_id": "690510a16f565b1579d66a32",
+        "name": "25WMCAGEN"
+      },
+      {
+        "_id": "67dd9832ce2dffc043ef85bf",
+        "name": "23WBAACAP"
+      },
+      {
+        "_id": "68149edb31a1ff2faf8e47d0",
+        "name": "22WBBAREMT"
+      },
+      {
+        "_id": "67dfbe23212b253c2d560bbf",
+        "name": "24WMBAAGB"
+      },
+      {
+        "_id": "688c89c5bc82236b80bb5ea3",
+        "name": "MCA-SEM2-BACK-2025"
+      },
+      {
+        "_id": "67de84d4ce2dffc043efd08e",
+        "name": "23SMCAGEN"
+      },
+      {
+        "_id": "6815dde831a1ff2faf8f011d",
+        "name": "23WBBAFIN"
+      },
+      {
+        "_id": "67de8458ce2dffc043efd064",
+        "name": "23WBCABCT"
+      },
+      {
+        "_id": "681f2f05e87ff3445cf237d3",
+        "name": "23SMBAIBM"
+      },
+      {
+        "_id": "676fc2e114eb7869dee0bde2",
+        "name": "24SBA0CA"
+      },
+      {
+        "_id": "6808c7461fc09e60bf3830f3",
+        "name": "25SBBAFIN"
+      },
+      {
+        "_id": "688af7b5bc82236b80bac711",
+        "name": "MA-SEM2-BACK-2025"
+      },
+      {
+        "_id": "69051182c09029ca18765d86",
+        "name": "25WMBAOPM"
+      },
+      {
+        "_id": "681f2ea6e87ff3445cf23757",
+        "name": "23SMBAMRT"
+      },
+      {
+        "_id": "67dd9813ce2dffc043ef85af",
+        "name": "23WBAAPSY"
+      },
+      {
+        "_id": "6815dc4931a1ff2faf8eff41",
+        "name": "23WBBAGEN"
+      },
+      {
+        "_id": "67723cf11ab48f53d19cbb94",
+        "name": "24SBCADTS"
+      },
+      {
+        "_id": "676fc24014eb7869dee0bdb8",
+        "name": "24SBA0ECO"
+      },
+      {
+        "_id": "67723d821ab48f53d19cbbe2",
+        "name": "24SMBAHRM"
+      },
+      {
+        "_id": "688af61dbc82236b80bac691",
+        "name": "BCA-SEM3-BACK-2025"
+      },
+      {
+        "_id": "67de83fbce2dffc043efd039",
+        "name": "23SBCACTI"
+      },
+      {
+        "_id": "67de844cce2dffc043efd05c",
+        "name": "23WBCADTS"
+      },
+      {
+        "_id": "67dd97d4ce2dffc043ef8597",
+        "name": "23WBAAPSC"
+      },
+      {
+        "_id": "677fa538e6b3db06e9d7dbc3",
+        "name": "24WBAAPPD"
+      },
+      {
+        "_id": "677f96f1e6b3db06e9d7cb92",
+        "name": "24WMSAMAT"
+      },
+      {
+        "_id": "6808c8101fc09e60bf383225",
+        "name": "25SMBAITM"
+      },
+      {
+        "_id": "687f1585a262fb08a1195d99",
+        "name": "BA-SEM1-BACK-2025"
+      },
+      {
+        "_id": "688af6460afa9490b65fa254",
+        "name": "BCA-SEM4-BACK-2025"
+      },
+      {
+        "_id": "688af7a4bc82236b80bac6f9",
+        "name": "MA-SEM1-BACK-2025"
+      },
+      {
+        "_id": "687f15b3a262fb08a1195e33",
+        "name": "BA-SEM2-BACK-2025"
+      },
+      {
+        "_id": "67de8526ce2dffc043efd0b7",
+        "name": "23SMSAMAT"
+      },
+      {
+        "_id": "67dfbdaf212b253c2d560b80",
+        "name": "24WBBAGEN"
+      },
+      {
+        "_id": "676fc2a614eb7869dee0bdd4",
+        "name": "24SBA0PSY"
+      },
+      {
+        "_id": "67de839ace2dffc043efd010",
+        "name": "22WBCAUSX"
+      },
+      {
+        "_id": "68149eb331a1ff2faf8e471a",
+        "name": "22WBBAGEN"
+      },
+      {
+        "_id": "67dfbdc9212b253c2d560b90",
+        "name": "24WBBAFIN"
+      },
+      {
+        "_id": "69051080c09029ca18765d7a",
+        "name": "25WMSAMAT"
+      },
+      {
+        "_id": "68149d8031a1ff2faf8e4429",
+        "name": "22WMBAMRT"
+      },
+      {
+        "_id": "676fc1f214eb7869dee0bdaa",
+        "name": "24WBA0ENG"
+      },
+      {
+        "_id": "67c7f5f5d47beb59f72de98c",
+        "name": "23WBAAECO"
+      },
+      {
+        "_id": "6821c573e87ff3445cf342d6",
+        "name": "23SBBAFIN"
+      },
+      {
+        "_id": "67dd9823ce2dffc043ef85b7",
+        "name": "23WBAAHIS"
+      },
+      {
+        "_id": "6771131714eb7869dee0c055",
+        "name": "24WBCAGEN"
+      },
+      {
+        "_id": "67de8320ce2dffc043efcfe0",
+        "name": "22WBCAARI"
+      }
+    ],
+    "specialization": "English, Computer Application, General, Public Policy & Development, Cloud Technology & Information Security, General, English, Diploma Data Science, Journalism & Mass Communication, Financial Management, Block Chain Technology, Data Science, General, Marketing, Operations Management, Psychology, Agri Business, Artificial Intelligence, Mathematics, Information Technology Management, Human Resource Management, International Business Management, International Relation, Retail Management, Political Science, English - Introduction to Literature, History, Healthcare Management, Digital Marketing, User Experience, Economics, Fintech"
+  },
+  "status": "SUCCESS"
+}

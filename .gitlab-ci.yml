@@ -1,0 +1,47 @@
+# Playwright version must match package.json → @playwright/test ^1.58.2 (m-10 fix)
+image: mcr.microsoft.com/playwright:v1.58.2-jammy
+
+stages:
+  - smoke
+  - regression
+
+variables:
+  TEST_USERNAME: $TEST_USERNAME   # Set in GitLab CI/CD → Settings → Variables (masked)
+  TEST_PASSWORD: $TEST_PASSWORD   # Set in GitLab CI/CD → Settings → Variables (masked)
+  BASE_URL: $BASE_URL             # Set in GitLab CI/CD → Settings → Variables
+
+# Cache node_modules between runs to save install time
+cache:
+  key: "$CI_COMMIT_REF_SLUG"
+  paths:
+    - node_modules/
+
+smoke:
+  stage: smoke
+  script:
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test --grep @smoke
+  artifacts:
+    when: always
+    paths:
+      - playwright-report/
+      - allure-results/
+    expire_in: 7 days
+
+regression:
+  stage: regression
+  only:
+    - main
+    - master
+  script:
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test
+  artifacts:
+    when: always
+    paths:
+      - playwright-report/
+      - allure-results/
+      - test-results/
+    expire_in: 30 days

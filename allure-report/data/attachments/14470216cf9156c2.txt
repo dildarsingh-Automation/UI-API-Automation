@@ -1,0 +1,23 @@
+Login successful, navigated to: https://copilot-student.wowlabz.com/ERP/dashboard
+Header validation for Virtual Class warning: expect(locator).toBeVisible() failed
+
+Locator:  getByText('Virtual Class').first()
+Expected: visible
+Received: undefined
+
+Call log:
+  - Expect "toBeVisible" with timeout 3000ms
+  - waiting for getByText('Virtual Class').first()
+
+Navigation to Course warning: locator.count: Target page, context or browser has been closed
+Navigation to Program warning: locator.count: Target page, context or browser has been closed
+Navigation to Role Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Examination warning: locator.count: Target page, context or browser has been closed
+Navigation to Grade Report warning: locator.count: Target page, context or browser has been closed
+Navigation to User Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Fees Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Reports warning: locator.count: Target page, context or browser has been closed
+Navigation to Requests warning: locator.count: Target page, context or browser has been closed
+Navigation to Announcements warning: locator.count: Target page, context or browser has been closed
+Navigation to Add On warning: locator.count: Target page, context or browser has been closed
+Logout warning: locator.waitFor: Target page, context or browser has been closed

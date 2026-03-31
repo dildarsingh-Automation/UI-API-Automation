@@ -1,0 +1,22 @@
+Navigation to Examination warning: locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for getByRole('link', { name: /Examination/i }).first()
+    - locator resolved to <a href="/ERP/examination">…</a>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+
+Header validation for Examination warning: locator.count: Target page, context or browser has been closed
+Navigation to Grade Report warning: locator.count: Target page, context or browser has been closed
+Header validation for Grade Report warning: locator.count: Target page, context or browser has been closed
+Navigation to User Management warning: locator.count: Target page, context or browser has been closed
+Header validation for User Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Fees Management warning: locator.count: Target page, context or browser has been closed
+Header validation for Fees Management warning: locator.count: Target page, context or browser has been closed
+Navigation to Reports warning: locator.count: Target page, context or browser has been closed
+Header validation for Reports warning: locator.count: Target page, context or browser has been closed
+Navigation to Requests warning: locator.count: Target page, context or browser has been closed
+Header validation for Requests warning: locator.count: Target page, context or browser has been closed
+Navigation to Announcements warning: locator.count: Target page, context or browser has been closed
+Header validation for Announcements warning: locator.count: Target page, context or browser has been closed
+Navigation to Add On warning: locator.count: Target page, context or browser has been closed
+Header validation for Add On warning: locator.count: Target page, context or browser has been closed

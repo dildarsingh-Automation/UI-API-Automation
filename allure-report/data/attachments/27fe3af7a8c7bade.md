@@ -1,0 +1,104 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - img "University Copilot" [ref=e9]
+      - generic [ref=e10]:
+        - list [ref=e11]:
+          - listitem [ref=e12]:
+            - link "Dashboard" [ref=e13] [cursor=pointer]:
+              - /url: /ERP/dashboard
+              - generic [ref=e14]: Dashboard
+          - listitem [ref=e15]:
+            - link "Discussion" [ref=e16] [cursor=pointer]:
+              - /url: /LMS/discussion
+              - generic [ref=e17]: Discussion
+          - listitem [ref=e18]:
+            - link "Virtual Class" [active] [ref=e19] [cursor=pointer]:
+              - /url: /LMS/virtual-class
+              - generic [ref=e20]: Virtual Class
+          - listitem [ref=e21]:
+            - link "Course" [ref=e22] [cursor=pointer]:
+              - /url: /LMS/course
+              - generic [ref=e23]: Course
+          - listitem [ref=e24]:
+            - link "Program" [ref=e25] [cursor=pointer]:
+              - /url: /ERP/program
+              - generic [ref=e26]: Program
+          - listitem [ref=e27]:
+            - link "Role Management" [ref=e28] [cursor=pointer]:
+              - /url: /ERP/role-management
+              - generic [ref=e29]: Role Management
+          - listitem [ref=e30]:
+            - link "Examination" [ref=e31] [cursor=pointer]:
+              - /url: /ERP/examination
+              - generic [ref=e32]: Examination
+          - listitem [ref=e33]:
+            - link "Grade Report" [ref=e34] [cursor=pointer]:
+              - /url: /ERP/grade-report
+              - generic [ref=e35]: Grade Report
+          - listitem [ref=e36]:
+            - link "User Management" [ref=e37] [cursor=pointer]:
+              - /url: /ERP/user-management
+              - generic [ref=e38]: User Management
+          - listitem [ref=e39]:
+            - link "Fees Management" [ref=e40] [cursor=pointer]:
+              - /url: /ERP/fees/staff
+              - generic [ref=e41]: Fees Management
+          - listitem [ref=e42]:
+            - link "Reports" [ref=e43] [cursor=pointer]:
+              - /url: /ERP/report-management
+              - generic [ref=e44]: Reports
+          - listitem [ref=e45]:
+            - link "Requests" [ref=e46] [cursor=pointer]:
+              - /url: /ERP/staff-request
+              - generic [ref=e47]: Requests
+          - listitem [ref=e48]:
+            - link "Announcements" [ref=e49] [cursor=pointer]:
+              - /url: /ERP/announcement
+              - generic [ref=e50]: Announcements
+          - listitem [ref=e51]:
+            - link "Add On" [ref=e52] [cursor=pointer]:
+              - /url: /ERP/add_ons
+              - generic [ref=e53]: Add On
+        - generic [ref=e54]:
+          - separator [ref=e55]
+          - generic [ref=e57]:
+            - img "avatarImg" [ref=e59] [cursor=pointer]
+            - generic [ref=e60]:
+              - generic "Dildar Automation User" [ref=e62] [cursor=pointer]
+              - text: dildar.singh@edufusiontech.com
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e73]: Virtual Class
+        - generic [ref=e79] [cursor=pointer]: "0"
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - generic [ref=e83]: Class
+        - listitem [ref=e84]:
+          - generic [ref=e85]: Calendar
+        - listitem [ref=e86]:
+          - generic [ref=e87]: Completed
+        - listitem [ref=e88]:
+          - generic [ref=e89]: Virtual Accounts
+      - generic [ref=e90]:
+        - button "Download Spreadsheet" [ref=e92] [cursor=pointer]:
+          - generic [ref=e93]: Download Spreadsheet
+        - link "Create new meeting" [ref=e95] [cursor=pointer]:
+          - /url: /LMS/virtual-class/create
+          - button "Create New" [ref=e97]:
+            - generic [ref=e98]: Create New
+            - img [ref=e100]
+      - generic [ref=e102]:
+        - generic [ref=e105]:
+          - paragraph [ref=e107]: Mold your virtual class for a tailored teaching experience.
+          - button "Create New" [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]: Create New
+            - img [ref=e113]
+        - text:   
+  - img
+```
