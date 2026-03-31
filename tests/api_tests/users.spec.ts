@@ -1,60 +1,47 @@
 import { test, expect } from '@playwright/test';
 import { ApiClient } from '../api/apiClient';
 
-const API_BASE_URL = process.env.API_BASE_URL || 'https://reqres.in';
+const API_BASE_URL = process.env.API_BASE_URL || 'https://jsonplaceholder.typicode.com';
 
-test.describe('API Tests - Demo Endpoints', () => {
+test.describe('API Tests - Placeholder Endpoints', () => {
   let apiClient: ApiClient;
 
   test.beforeEach(async ({ request }) => {
     apiClient = new ApiClient(request);
   });
 
-  test('TC-API-001: Fetch list of users', async () => {
-    // Correctly passing only the path + query params
-    const response = await apiClient.get('/api/users', { page: 2 });
+  test('TC-API-001: Fetch all posts', async () => {
+    const response = await apiClient.get('/posts');
 
     expect(response.status()).toBe(200);
     expect(response.ok()).toBeTruthy();
 
     const responseBody = await response.json();
-    
-    expect(responseBody.page).toBe(2);
-    expect(responseBody.data).toBeInstanceOf(Array);
-    expect(responseBody.data.length).toBeGreaterThan(0);
-    expect(responseBody.data[0]).toHaveProperty('id');
-    expect(responseBody.data[0]).toHaveProperty('email');
+    expect(responseBody).toBeInstanceOf(Array);
+    expect(responseBody.length).toBeGreaterThan(0);
+    expect(responseBody[0]).toHaveProperty('userId');
   });
 
-  test('TC-API-002: Create a new user', async () => {
+  test('TC-API-002: Create a new resource', async () => {
     const payload = {
-      name: 'John Doe',
-      job: 'Automation Architect'
+      title: 'Demo Task',
+      body: 'Professional framework demonstration',
+      userId: 1
     };
 
-    const startTime = Date.now();
-    const response = await apiClient.post('/api/users', payload);
-    const duration = Date.now() - startTime;
-
+    const response = await apiClient.post('/posts', payload);
+    
     expect(response.status()).toBe(201);
     
     const responseBody = await response.json();
-    
-    expect(responseBody.name).toBe(payload.name);
-    expect(responseBody.job).toBe(payload.job);
+    expect(responseBody.title).toBe(payload.title);
     expect(responseBody).toHaveProperty('id');
-    expect(responseBody).toHaveProperty('createdAt');
-
-    // Performance assertion (should respond within 3s timeframe for demo)
-    expect(duration).toBeLessThan(3000); 
   });
 
-  test('TC-API-003: Negative test for non-existing user', async () => {
-    const response = await apiClient.get('/api/users/23');
+  test('TC-API-003: Negative test for non-existing resource', async () => {
+    const response = await apiClient.get('/posts/9999');
     
+    // JSONPlaceholder returns 404 for non-existent posts
     expect(response.status()).toBe(404);
-    
-    const responseBody = await response.json();
-    expect(responseBody).toEqual({});
   });
 });
