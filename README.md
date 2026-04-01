@@ -63,3 +63,6 @@ This framework integrates end-to-end (E2E) UI testing with detailed API integrat
 - **Advanced Selectors**: Emphasizes generic role testing or unique attribute targeting for robustness.
 - **Flakiness Mitigation**: Out-of-the-box parallelization capability combined with a configurable retry-hierarchy (`CI=1`/`Local=0`).
 - **Resilient Waiting**: Complete removal of arbitrary `page.waitForTimeout` logic in favor of internal Playwright web-first assertions and actionability checks.
+
+- <img width="1711" height="910" alt="image" src="https://github.com/user-attachments/assets/60918c5c-c969-40d7-8117-8c775ec2474d" />
+
