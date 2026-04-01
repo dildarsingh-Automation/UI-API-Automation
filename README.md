@@ -94,7 +94,6 @@ The framework generates detailed Playwright HTML reports including:
 * Performance checks (response time monitoring)
 * Pass/Fail summary
 
-![Sample Report](./assets/report.png)
 
 
 - <img width="1711" height="910" alt="image" src="https://github.com/user-attachments/assets/60918c5c-c969-40d7-8117-8c775ec2474d" />
