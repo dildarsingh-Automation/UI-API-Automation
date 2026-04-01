@@ -15,6 +15,27 @@ This framework integrates end-to-end (E2E) UI testing with detailed API integrat
 - **API Testing:** Built-in Playwright Request Context
 - **Reporting:** `Playwright HTML Reporter`, `Allure` 
 - **Configuration:** `dotenv`
+## 🧪 Test Scenarios Covered
+
+### UI Automation
+
+* Login functionality validation (valid & invalid credentials)
+* Navigation and page validation
+* Form interaction and submission
+
+### API Automation
+
+* GET student data validation by mobile number
+* Negative scenarios for invalid input
+* Empty and malformed payload validation
+
+### Integration Testing
+
+* API response validation with UI data consistency
+
+### Performance Validation
+
+* Response time checks (e.g., < 2000ms threshold)
 
 ## 📁 Repository Architecture
 
@@ -63,6 +84,18 @@ This framework integrates end-to-end (E2E) UI testing with detailed API integrat
 - **Advanced Selectors**: Emphasizes generic role testing or unique attribute targeting for robustness.
 - **Flakiness Mitigation**: Out-of-the-box parallelization capability combined with a configurable retry-hierarchy (`CI=1`/`Local=0`).
 - **Resilient Waiting**: Complete removal of arbitrary `page.waitForTimeout` logic in favor of internal Playwright web-first assertions and actionability checks.
+
+- ## 📊 Execution Report (Sample)
+
+The framework generates detailed Playwright HTML reports including:
+
+* Step-by-step execution logs
+* API request/response validation
+* Performance checks (response time monitoring)
+* Pass/Fail summary
+
+![Sample Report](./assets/report.png)
+
 
 - <img width="1711" height="910" alt="image" src="https://github.com/user-attachments/assets/60918c5c-c969-40d7-8117-8c775ec2474d" />
 
